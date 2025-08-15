@@ -1,0 +1,25 @@
+{
+  "name": "graphqlthreads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "tsc-watch": "^7.1.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "@as-integrations/express5": "^1.1.2",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0"
+  }
+}
